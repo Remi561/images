@@ -15,7 +15,7 @@ img{
 }
 
 .container{
-    overflow-x: hidden;
+    
     width: 100%;
     margin: 0 auto;
    
@@ -31,11 +31,12 @@ img{
     background-color: rgba(255, 255, 255, 0.38);
     backdrop-filter: blur(10px);
 
+    position: sticky;
     box-shadow: 0 0 10px rgba(255 , 255, 255,0.2);
     place-items: center;
     top: 0;
     padding: 1em 0;
-    position: sticky;
+    
     gap: 10px;
     z-index: 1;
 }
